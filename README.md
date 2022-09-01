@@ -13,9 +13,10 @@ Type following command in you command prompt to create virtual env(This is one t
 (This is to be done every time when you are running project)
 -> source env/bin/activate ( for linux)
 -> .\env\Scripts\activate ( for windows)
+NOTE:- For going back to the previous page -> cd ..
 
 # 4. Starting server
--> cd college_mgmt
+-> cd college_mgnt/college_mgnt
 -> python manage.py runserver
 
 
