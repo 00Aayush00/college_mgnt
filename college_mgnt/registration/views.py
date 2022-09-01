@@ -9,3 +9,9 @@ class HomeView(View):
     def get(self, request):
        
         return render(request, "index.html")
+
+# Create your views here.
+class StudentAddView(View):
+    def get(self, request):
+       
+        return render(request, "registration/student_add.html")
